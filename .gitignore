@@ -1,0 +1,54 @@
+## .gitignore for .NET projects
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# .NET tooling
+*.rsuser
+.dotnet/
+.dotnet-tools/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish profiles
+**/Properties/PublishProfiles/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / environment
+*.env
+.env
+appsettings.*.local.json
+secrets.json
